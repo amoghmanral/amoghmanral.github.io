@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.sectionHeader {
+  margin-bottom: 2rem;
+}
+.sectionTitle {
+  display: inline-block;
+  border-bottom: 3px solid var(--secondary-color);
+  padding-bottom: 0.2em;
+  margin-bottom: 1.2rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-transform: lowercase;
+}
+.sectionSubtitle {
+  color: var(--text-light);
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+.aboutText {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-light);
+} 
