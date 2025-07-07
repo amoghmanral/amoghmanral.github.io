@@ -23,11 +23,11 @@
 }
 .techTable {
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 1rem;
   border-collapse: collapse;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 .techTableHeader {
   display: flex;
@@ -65,6 +65,7 @@
 }
 .techIconLarge:hover {
   color: var(--secondary-color);
+  cursor: pointer;
 }
 .techCategoryHeader, .techTechHeader {
   font-size: 1rem;

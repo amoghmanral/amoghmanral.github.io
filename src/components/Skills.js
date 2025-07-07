@@ -1,6 +1,6 @@
 import styles from './Skills.module.css';
-import { FaPython, FaAngular, FaReact, FaJava, FaNodeJs, FaDocker, FaGitAlt, FaLinux, FaStripe, FaPaypal, FaAws, FaGoogle, FaCloud, FaCloudSun, FaHtml5, FaCss3} from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiCplusplus, SiVercel, SiFastapi, SiGooglecloud, SiFlask} from 'react-icons/si';
+import { FaPython, FaAngular, FaReact, FaJava, FaNodeJs, FaDocker, FaGitAlt, FaLinux, FaHtml5, FaCss3} from 'react-icons/fa';
+import { SiJavascript, SiTypescript, SiCplusplus, SiR, SiVercel, SiFastapi, SiGooglecloud, SiFlask, SiSwagger, SiTensorflow, SiScikitlearn, SiPytorch, SiPandas} from 'react-icons/si';
 import { TbBrandCpp, TbBrandNextjs } from "react-icons/tb";
 import { VscAzureDevops } from "react-icons/vsc";
 
@@ -10,14 +10,15 @@ const techCategories = [
         category: 'Programming Languages',
         techs: [
             { icon: <FaPython />, name: 'Python' },
-            { icon: <SiJavascript />, name: 'JavaScript' },
-            { icon: <SiTypescript />, name: 'TypeScript' },
             { icon: <FaJava />, name: 'Java' },
             { icon: <SiCplusplus />, name: 'C++' },
+            { icon: <SiJavascript />, name: 'JavaScript' },
+            { icon: <SiTypescript />, name: 'TypeScript' },
+            { icon: <SiR />, name: 'R' },
         ]
     },
     {
-        category: 'Frontend',
+        category: 'Frontend Development',
         techs: [
             { icon: <FaHtml5 />, name: 'HTML' },
             { icon: <FaCss3 />, name: 'CSS' },
@@ -27,15 +28,25 @@ const techCategories = [
         ]
     },
     {
-        category: 'Backend',
+        category: 'Backend Development',
         techs: [
             { icon: <FaNodeJs />, name: 'Node.js' },
             { icon: <SiFastapi />, name: 'FastAPI' },
             { icon: <SiFlask />, name: 'Flask' },
+            { icon: <SiSwagger />, name: 'Swagger' },
         ]
     },
     {
-        category: 'CI/Deployment',
+        category: 'Machine Learning',
+        techs: [
+            { icon: <SiTensorflow />, name: 'TensorFlow' },
+            { icon: <SiScikitlearn />, name: 'Scikit-learn' },
+            { icon: <SiPytorch />, name: 'PyTorch' },
+            { icon: <SiPandas />, name: 'Pandas' },
+        ]
+    },
+    {
+        category: 'Deployment & Cloud',
         techs: [
             { icon: <FaDocker />, name: 'Docker' },
             { icon: <VscAzureDevops />, name: 'Azure DevOps' },
