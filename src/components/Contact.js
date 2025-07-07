@@ -17,8 +17,8 @@ export default function Contact() {
                             <button type="submit" style={{ padding: '0.7em', borderRadius: 8, background: 'var(--secondary-color)', color: '#fff', fontWeight: 600, fontSize: '1rem', border: 'none', cursor: 'pointer', fontFamily: 'inherit' }}>Send Message</button>
                         </div>
                     </form>
-                    <a href="/resume.pdf" className={styles.downloadResumeLink} download>
-                        Download Resume
+                    <a href="https://www.linkedin.com/in/amogh-manral-688736248/" className={styles.downloadResumeLink} download>
+                        View Resume
                     </a>
                 </div>
             </div>
