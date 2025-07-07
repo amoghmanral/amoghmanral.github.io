@@ -73,4 +73,32 @@
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+}
+.techIconWrapper {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.techIconWrapper::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%);
+  background: #23272f;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  font-size: 0.85rem;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  transition: opacity 0.15s;
+}
+
+.techIconWrapper:hover::after {
+  opacity: 1;
 } 
