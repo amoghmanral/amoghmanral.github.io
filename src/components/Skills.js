@@ -1,6 +1,6 @@
 import styles from './Skills.module.css';
-import { FaPython, FaAngular, FaReact, FaJava, FaNodeJs, FaDocker, FaGitAlt, FaLinux, FaHtml5, FaCss3} from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiCplusplus, SiR, SiVercel, SiFastapi, SiGooglecloud, SiFlask, SiSwagger, SiTensorflow, SiScikitlearn, SiPytorch, SiPandas} from 'react-icons/si';
+import { FaPython, FaAngular, FaReact, FaJava, FaNodeJs, FaDocker, FaGithub, FaGitAlt, FaLinux, FaHtml5, FaCss3} from 'react-icons/fa';
+import { SiJavascript, SiTypescript, SiCplusplus, SiR, SiVercel, SiFastapi, SiPydantic, SiGooglecloud, SiFlask, SiSwagger, SiTensorflow, SiScikitlearn, SiPytorch, SiPandas, SiNumpy} from 'react-icons/si';
 import { TbBrandCpp, TbBrandNextjs } from "react-icons/tb";
 import { VscAzureDevops } from "react-icons/vsc";
 
@@ -32,27 +32,30 @@ const techCategories = [
         techs: [
             { icon: <FaNodeJs />, name: 'Node.js' },
             { icon: <SiFastapi />, name: 'FastAPI' },
+            { icon: <SiPydantic />, name: 'Pydantic' },
             { icon: <SiFlask />, name: 'Flask' },
             { icon: <SiSwagger />, name: 'Swagger' },
         ]
     },
     {
-        category: 'Machine Learning',
+        category: 'Machine Learning & Data Science',
         techs: [
             { icon: <SiTensorflow />, name: 'TensorFlow' },
             { icon: <SiScikitlearn />, name: 'Scikit-learn' },
             { icon: <SiPytorch />, name: 'PyTorch' },
             { icon: <SiPandas />, name: 'Pandas' },
+            { icon: <SiNumpy />, name: 'NumPy' },
         ]
     },
     {
         category: 'Deployment & Cloud',
         techs: [
+            { icon: <FaGitAlt />, name: 'Git' },
+            { icon: <FaGithub />, name: 'GitHub' },
             { icon: <FaDocker />, name: 'Docker' },
             { icon: <VscAzureDevops />, name: 'Azure DevOps' },
             { icon: <SiGooglecloud />, name: 'Google Cloud' },
             { icon: <FaLinux />, name: 'Linux' },
-            { icon: <FaGitAlt />, name: 'Git' },
             { icon: <SiVercel />, name: 'Vercel' },
         ]
     },
