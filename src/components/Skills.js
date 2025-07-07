@@ -1,6 +1,6 @@
 import styles from './Skills.module.css';
 import { FaPython, FaAngular, FaReact, FaJava, FaNodeJs, FaDocker, FaGithub, FaGitAlt, FaLinux, FaHtml5, FaCss3} from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiCplusplus, SiR, SiVercel, SiFastapi, SiPydantic, SiGooglecloud, SiFlask, SiSwagger, SiTensorflow, SiScikitlearn, SiPytorch, SiPandas, SiNumpy} from 'react-icons/si';
+import { SiJavascript, SiTypescript, SiCplusplus, SiR, SiVercel, SiFastapi, SiPydantic, SiGooglecloud, SiKubernetes, SiFlask, SiSwagger, SiTensorflow, SiScikitlearn, SiPytorch, SiPandas, SiNumpy} from 'react-icons/si';
 import { TbBrandCpp, TbBrandNextjs } from "react-icons/tb";
 import { VscAzureDevops } from "react-icons/vsc";
 
@@ -55,6 +55,7 @@ const techCategories = [
             { icon: <FaDocker />, name: 'Docker' },
             { icon: <VscAzureDevops />, name: 'Azure DevOps' },
             { icon: <SiGooglecloud />, name: 'Google Cloud' },
+            { icon: <SiKubernetes />, name: 'Kubernetes' },
             { icon: <FaLinux />, name: 'Linux' },
             { icon: <SiVercel />, name: 'Vercel' },
         ]
