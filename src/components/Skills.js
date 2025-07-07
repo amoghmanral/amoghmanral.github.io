@@ -75,7 +75,9 @@ export default function Skills() {
                             <span className={styles.techCategory}>{cat.category}</span>
                             <span className={styles.techIcons}>
                                 {cat.techs.map((tech, tIdx) => (
-                                    <span className={styles.techIconLarge} key={tIdx} title={tech.name}>{tech.icon}</span>
+                                    <span className={styles.techIconWrapper} data-tooltip={tech.name} key={tIdx}>
+                                        <span className={styles.techIconLarge}>{tech.icon}</span>
+                                    </span>
                                 ))}
                             </span>
                         </div>
