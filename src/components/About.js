@@ -7,8 +7,10 @@ export default function About() {
                 <div className="section-header">
                     <h2 className="section-title">about</h2>
                     <p className="section-subtitle">
-                        I build interesting things. Currently working as a SWE intern at SLB. When I'm not busy with that, I watch Formula 1, go rock climbing, or play piano.
-
+                    I build interesting things. 
+                    Right now: I'm working as a SWE intern at SLB. 
+                    Where: I've lived in three different countries across three continents; currently based in Durham, NC.
+                    For fun: I rock climb, watch Formula 1, and play the piano.
                     </p>
                 </div>
                 <div className={styles.aboutText}>
