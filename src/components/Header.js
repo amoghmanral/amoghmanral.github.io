@@ -41,7 +41,7 @@ export default function Header() {
                     <li><a href="#projects" onClick={closeMenu}>projects</a></li>
                     <li><a href="#skills" onClick={closeMenu}>skills</a></li>
                     <li><a href="#contact" onClick={closeMenu}>contact</a></li>
-                    <li><a href="#resume" onClick={closeMenu}>resume</a></li>
+                    <li><a href="https://www.linkedin.com/in/amogh-manral-688736248/" onClick={closeMenu}>resume</a></li>
                 </ul>
                 <button className={styles.themeToggle} onClick={toggleTheme} aria-label="Toggle dark mode">
                     {theme === 'dark' ? <FaSun /> : <FaMoon />}
