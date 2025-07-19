@@ -1,6 +1,6 @@
 import styles from './Skills.module.css';
-import { FaPython, FaAngular, FaReact, FaJava, FaNodeJs, FaDocker, FaGithub, FaGitAlt, FaLinux, FaHtml5, FaCss3} from 'react-icons/fa';
-import { SiJavascript, SiTypescript, SiCplusplus, SiR, SiVercel, SiFastapi, SiPydantic, SiGooglecloud, SiKubernetes, SiFlask, SiSwagger, SiTensorflow, SiScikitlearn, SiPytorch, SiPandas, SiNumpy} from 'react-icons/si';
+import { FaPython, FaAngular, FaReact, FaJava, FaNodeJs, FaDocker, FaGithub, FaGitAlt, FaLinux, FaHtml5, FaCss3, FaSass} from 'react-icons/fa';
+import { SiJavascript, SiTypescript, SiCplusplus, SiR, SiVercel, SiFastapi, SiPydantic, SiGooglecloud, SiKubernetes, SiFlask, SiSwagger, SiTensorflow, SiScikitlearn, SiPytorch, SiPandas, SiNumpy, SiSonarqube} from 'react-icons/si';
 import { TbBrandCpp, TbBrandNextjs } from "react-icons/tb";
 import { VscAzureDevops } from "react-icons/vsc";
 
@@ -22,6 +22,7 @@ const techCategories = [
         techs: [
             { icon: <FaHtml5 />, name: 'HTML' },
             { icon: <FaCss3 />, name: 'CSS' },
+            { icon: <FaSass />, name: 'Sass' },
             { icon: <FaReact />, name: 'React' },
             { icon: <TbBrandNextjs />, name: 'Next.js' },
             { icon: <FaAngular />, name: 'Angular' },
@@ -56,7 +57,7 @@ const techCategories = [
             { icon: <VscAzureDevops />, name: 'Azure DevOps' },
             { icon: <SiGooglecloud />, name: 'Google Cloud' },
             { icon: <SiKubernetes />, name: 'Kubernetes' },
-            { icon: <FaLinux />, name: 'Linux' },
+            { icon: <SiSonarqube />, name: 'SonarQube' },
             { icon: <SiVercel />, name: 'Vercel' },
         ]
     },
