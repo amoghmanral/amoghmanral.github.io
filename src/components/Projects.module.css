@@ -113,12 +113,27 @@
   display: block;
   border-radius: 14px 14px 0 0;
   margin: 1.2rem 1.2rem 0 1.2rem;
-  filter: grayscale(100%);
   transition: filter 0.3s ease;
 }
 
-.card:hover .cardImage {
-  filter: grayscale(0%);
+.cardMedia {
+  width: calc(100% - 2.4rem);
+  display: block;
+  border-radius: 14px 14px 0 0;
+  margin: 1.2rem 1.2rem 0 1.2rem;
+  transition: filter 0.3s ease;
+}
+
+/* Image specific styling */
+.cardMedia[src] {
+  height: 350px;
+  object-fit: cover;
+}
+
+/* Video specific styling - 21:9 aspect ratio */
+.cardMedia:not([src]) {
+  aspect-ratio: 21/9;
+  object-fit: cover;
 }
 
 .cardContent {
