@@ -9,7 +9,7 @@ export default function Hero() {
                         <img src="/me.png" alt="Amogh Manral" />
                     </div>
                     <h1 className={styles.heroTitle}>Amogh Manral</h1>
-                    <p className={styles.heroSubtitle}>CS sophomore @ Duke University<br />AI/ML • Full-Stack Development • Research</p>
+                    <p className={styles.heroSubtitle}>CS @ Duke University<br />AI/ML • Full-Stack Development • Research</p>
                     <div className={styles.heroLinks}>
                         <a href="mailto:am1153@duke.edu" className={styles.heroLink}>email</a>
                         <a href="https://github.com/amoghmanral" className={styles.heroLink}>github</a>
